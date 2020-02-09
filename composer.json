@@ -1,0 +1,21 @@
+{
+    "name": "alex/addressbook",
+    "description": "People address information",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Khruslov",
+            "email": "klyameraa@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Addressbook\\": "src/Addressbook"
+        }
+    }
+}
